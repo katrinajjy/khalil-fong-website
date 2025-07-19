@@ -1,0 +1,107 @@
+@use "./utils" as *;
+
+.albums {
+  h2 {
+    text-align: center;
+  }
+
+  margin-bottom: rem(200);
+}
+
+.album-player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  max-width: 100%;
+  height: rem(800);
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+}
+
+.left-side {
+  position: relative;
+  flex: 0 0 25%;
+  padding-left: rem(30);
+
+  .menu {
+    list-style: none;
+    line-height: 2.8;
+  }
+
+  #menu-indicator {
+    position: absolute;
+    left: 0;
+    width: rem(4);
+    height: rem(20);
+    background-color: currentColor;
+    transition: top 0.5s ease-in-out;
+  }
+}
+
+.middle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: rem(64);
+
+  img {
+    display: block;
+    object-fit: cover;
+    width: rem(600);
+    height: rem(600);
+    border-radius: rem(3);
+  }
+
+  h3 {
+    text-align: center;
+    margin: rem(20) 0 0 0;
+    font-size: rem(30);
+    letter-spacing: rem(8);
+  }
+}
+
+.right-side {
+  height: rem(480);
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 0;
+
+  #album-info {
+    margin: 0 0 rem(30) 0;
+  }
+  #album-songs {
+    .jtw-wrapper {
+      display: flex;
+      flex-direction: row;
+      gap: rem(10);
+    }
+
+    .disc {
+      flex: 1;
+    }
+
+    p {
+      font-size: rem(14);
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+/*
+.center-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%; //center horizontally
+  transform: translateX(-50%); //adjust for exact center
+  width: 2px;
+  background-color: red;
+  pointer-events: none; //* so it doesn't block clicks
+  z-index: 10;
+}*/

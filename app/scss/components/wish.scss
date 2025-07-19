@@ -1,0 +1,48 @@
+@use "./utils" as *;
+
+.wish-wrapper {
+  position: relative;
+  inset: 0;
+  margin: auto;
+  margin-top: rem(100);
+  margin-bottom: rem(100);
+  width: rem(300);
+  height: rem(150);
+
+  p {
+    position: relative;
+    text-align: center;
+    letter-spacing: rem(20);
+    font-family: "Noto Sans SC", sans-serif;
+    font-size: rem(18);
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: rem(30);
+    padding: 0;
+    z-index: 100;
+  }
+
+  p:nth-child(2) {
+    color: $darkRed;
+  }
+
+  .line2 {
+    margin-top: rem(30);
+    margin-left: rem(50);
+  }
+}
+
+// Invisible stripes animation
+.stripe-overlay {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to right,
+    black,
+    black rem(30),
+    transparent rem(30),
+    transparent rem(60)
+  );
+  pointer-events: none;
+  z-index: 1000;
+}

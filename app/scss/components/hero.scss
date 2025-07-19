@@ -1,0 +1,81 @@
+@use "./utils" as *;
+
+.hero-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: rem(800);
+  will-change: transform;
+}
+
+.hero {
+  &__image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    position: relative;
+    background-image: url("/images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 100%;
+    height: rem(800);
+    padding-bottom: rem(5);
+  }
+
+  &__text {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    color: $darkRed;
+    font-size: rem(240);
+    font-weight: 500;
+  }
+
+  .khalil {
+    align-self: flex-start;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: rem(80);
+  }
+
+  .fong-line {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: rem(10);
+  }
+
+  .fangdatong {
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans SC", sans-serif;
+    font-size: rem(30);
+
+    span:first-child {
+      margin-bottom: rem(60);
+    }
+
+    span {
+      margin-bottom: rem(10);
+    }
+
+    span:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .fong {
+    letter-spacing: rem(10);
+  }
+}
+
+.hero-spacer {
+  height: rem(800);
+}

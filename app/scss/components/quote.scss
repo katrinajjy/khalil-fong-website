@@ -1,0 +1,38 @@
+@use "./utils" as *;
+
+.quote-wrapper {
+  height: rem(200);
+  display: grid;
+  place-items: center;
+  margin-top: rem(300);
+  margin-bottom: rem(300);
+}
+
+.quote {
+  width: rem(1100);
+  overflow: hidden;
+  white-space: normal;
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: rem(16);
+  line-height: 3;
+  letter-spacing: rem(5);
+}
+
+.cursor {
+  display: inline-block;
+  width: rem(1);
+  height: rem(18);
+  background: white;
+  animation: blink 0.7s step-end infinite;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

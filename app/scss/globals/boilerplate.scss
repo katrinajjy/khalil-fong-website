@@ -1,0 +1,54 @@
+@use "./utils" as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: black;
+  min-height: rem(2000);
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  line-height: 1.5;
+
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+.content {
+  position: relative;
+  background: black;
+  padding: rem(50);
+}
+
+// Text
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: rem(48);
+  font-weight: 400;
+  letter-spacing: rem(8);
+}
+
+p {
+  font-size: rem(14);
+  line-height: 1.8;
+}

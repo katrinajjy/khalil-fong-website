@@ -1,0 +1,57 @@
+@use "./utils" as *;
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: rem(30);
+  margin-bottom: rem(200);
+}
+
+.gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: rem(90);
+  max-width: rem(1200);
+  width: 100%;
+
+  --gif-texture: url(https://64.media.tumblr.com/da60c13b478dda09ab90c27e880983b8/tumblr_nd4pwdPKdc1tun3l0o1_1280.gifv);
+
+  a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: rem(200);
+    border-radius: rem(5);
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: var(--gif-texture);
+        background-size: cover;
+        background-position: center;
+        mix-blend-mode: overlay;
+        opacity: 0.3;
+        pointer-events: none;
+      }
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

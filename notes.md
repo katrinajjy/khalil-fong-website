@@ -9,7 +9,7 @@ Text reveal on scroll: https://codepen.io/cbolson/pen/JoPjmZa
 /---- Albums Section ----/
 Carousel: https://codepen.io/pascaloliv/pen/LVZaeE
 
-/---- Albums Section ----/
+/---- Photos Section ----/
 Horizontal scrolling images: https://codepen.io/kevinpowell/pen/BavVLra
 
 /---- Gallery Section ----/

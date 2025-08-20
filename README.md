@@ -10,10 +10,10 @@ The website features:
 - An About section introducing Khalil
 - His Discography
 - A curated Photo Wall
-- A Video Gallery
+- A Video Gallery <br>
 
-  
-
+<br>
+<br>
 <img width="1470" height="797" alt="about-section" src="https://github.com/user-attachments/assets/ed2530ec-74eb-4e25-9de5-20bb4447456b" />
 
 <img width="1470" height="797" alt="albums-section" src="https://github.com/user-attachments/assets/cc73c01a-0e9c-4814-8876-d103f905000f" />

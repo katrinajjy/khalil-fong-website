@@ -21,9 +21,8 @@ The website features:
 
 <img width="1470" height="795" alt="gallery" src="https://github.com/user-attachments/assets/2d431cc9-c8ac-4cf8-9890-602aef5556d4" />
 <br/>
-
-At the end of the site, you'll find a quote from Khalil that serves as a personal wish to everyone who visits: 
 <br/>
+At the end of the site, you'll find a quote from Khalil that serves as a personal wish to everyone who visits:  
 
 >「祝你在未来的日子里，继续怀抱梦想，持续努力，成长进化， 在人生的每个阶段充分发挥自己的潜能。」<br/>
 >「May we continue to dream, strive, evolve, and fully realize our potential at every stage of life.」

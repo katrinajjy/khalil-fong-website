@@ -22,7 +22,8 @@ The website features:
 <img width="1470" height="795" alt="gallery" src="https://github.com/user-attachments/assets/2d431cc9-c8ac-4cf8-9890-602aef5556d4" />
 <br/>
 
-At the end of the site, you'll find a quote from Khalil that serves as a personal wish to everyone who visits: <br/>
+At the end of the site, you'll find a quote from Khalil that serves as a personal wish to everyone who visits: 
+<br/>
 
 >「祝你在未来的日子里，继续怀抱梦想，持续努力，成长进化， 在人生的每个阶段充分发挥自己的潜能。」<br/>
 >「May we continue to dream, strive, evolve, and fully realize our potential at every stage of life.」
@@ -37,10 +38,9 @@ This is the first website I've ever built, made entirely for personal learning a
 It's far from perfect and has much room for improvement, 
 but it marks an important milestone in my journey as a developer.
 
-I drew immense inspiration from the [FU MUSIC] (https://khalilfong.com/2017/) Official Website, which influenced both the design and the vibe of this project. I also learned a lot about animations and effects from talented creators on CodePen, all of whom are credited in my notes.
+I drew immense inspiration from the [FU MUSIC](https://khalilfong.com/2017/) Official Website, which influenced both the design and the vibe of this project. I also learned a lot about animations and effects from talented creators on CodePen, all of whom are credited in my notes.
 
 
-<br/>
 ## 🤍 Final Thoughts
 
 This project represents both my admiration for Khalil Fong and my first step into web development. 

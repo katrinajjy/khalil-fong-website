@@ -4,8 +4,7 @@
 <br/>
 <br/>
 
-This is a personal website I created as a tribute to Khalil Fong 
-— not for any commercial or real-life purpose, but simply as a way 
+This is a personal website I created as a tribute to Khalil Fong. Not for any commercial or real-life purpose, but simply as a way 
 to remember and celebrate a truly wonderful and kind soul.
 
 The website features:
@@ -20,7 +19,8 @@ The website features:
 <img width="1470" height="797" alt="albums-section" src="https://github.com/user-attachments/assets/cc73c01a-0e9c-4814-8876-d103f905000f" />
 
 <img width="1470" height="795" alt="gallery" src="https://github.com/user-attachments/assets/2d431cc9-c8ac-4cf8-9890-602aef5556d4" />
-<br/>
+
+
 <br/>
 At the end of the site, you'll find a quote from Khalil that serves as a personal wish to everyone who visits:  
 
@@ -38,9 +38,9 @@ It's far from perfect and has much room for improvement,
 but it marks an important milestone in my journey as a developer.
 
 I drew immense inspiration from the [FU MUSIC](https://khalilfong.com/2017/) Official Website, which influenced both the design and the vibe of this project. I also learned a lot about animations and effects from talented creators on CodePen, all of whom are credited in my notes.
-
+<br/>
 
 ## 🤍 Final Thoughts
 
 This project represents both my admiration for Khalil Fong and my first step into web development. 
-Thank you for visiting — I hope you find a little inspiration here, just as I did while building it.
+Thank you for visiting. I hope you find a little inspiration here, just as I did while building it.

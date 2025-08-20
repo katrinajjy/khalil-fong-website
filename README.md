@@ -1,4 +1,4 @@
-# ⏳ A Tribute Website for Soulboy <br/>
+# ⏳ A Tribute Website for Soulboy 
 
 <img width="1470" height="797" alt="hero-image" src="https://github.com/user-attachments/assets/51e97df3-991a-4cec-a37b-2052385e0e51" />
 <br/>
@@ -22,7 +22,7 @@ The website features:
 <img width="1470" height="795" alt="gallery" src="https://github.com/user-attachments/assets/2d431cc9-c8ac-4cf8-9890-602aef5556d4" />
 <br/>
 
-At the end of the site, you'll find a quote from Khalil that serves as a personal wish to everyone who visits:
+At the end of the site, you'll find a quote from Khalil that serves as a personal wish to everyone who visits: <br/>
 
 >「祝你在未来的日子里，继续怀抱梦想，持续努力，成长进化， 在人生的每个阶段充分发挥自己的潜能。」<br/>
 >「May we continue to dream, strive, evolve, and fully realize our potential at every stage of life.」
@@ -30,8 +30,7 @@ At the end of the site, you'll find a quote from Khalil that serves as a persona
 <br/>
 <img width="1470" height="797" alt="quote" src="https://github.com/user-attachments/assets/aa1302d0-6e75-4be5-9a8a-07870ef90c9b" />
 
-<br/>
-<br/>
+
 ## 🖋️ Project Notes
 
 This is the first website I've ever built, made entirely for personal learning and expression. 
